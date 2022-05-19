@@ -1,0 +1,21 @@
+print("Hello user...")
+a=input("Enter name:")
+print("Hello ",a," Welcame to our website.\nDO you want to get your child at best school")
+b=int(input("No of Child you want for admission:"))
+if(b==1):
+    b1=input("Enter your children name:")
+    b2=input("Gender of Child(M/G):")
+    b3=int(input("Enter your Phone no:"))
+    print("There would be a lucky draw of your child:")
+    print("Your token No :",id(b1))
+if(b==2):
+    b1a=input("Enter your child 1 name:")
+    b11a=int(input("Enter your child 1 gender (M/G)"))
+    b2a=input("Enter your child 2 name:")
+    b22a=int(input("Enter your child 2 gender (M/G)"))
+    b3=int(input("Enter your Phone no:"))
+    print("There would be a lucky draw of your child:")
+    print("Your token No of child 1:",id(b1a))
+    print("Your token No of child 2:",id(b2a))
+else:
+    print("You cant do admission of more than 2 student.")
